@@ -2,7 +2,7 @@ name: Rust
 
 on:
   push:
-    branches: [ main, dev ]
+    branches: [ main, dev, test/fix-clippy-warnings ]
     paths-ignore:
       - 'docs_src/**'
       - 'README.md'
